@@ -18,6 +18,7 @@ class Song {
     addSong(song){
       this.songs.push(song);
     }
+    // just for bonus mark, we added remove song method
     removeSong(song){
       this.songs = this.songs.filter(item => item !== song);
     }
